@@ -1,0 +1,35 @@
+{
+  "id": "328",
+  "skill": "sgs-recharge-advisor",
+  "skill_version": "1.0.0",
+  "input_sha256": {
+    "aim.txt": "743de711ffe0bf045f7cef8393c010ddd1557a440fcf6786a19a0f48b0193eb0",
+    "note.pdf": "0678ff466be938e869a2d58c44e2ecf65d70de18554bf1b48c7ab70fec07d7ba"
+  },
+  "historical_gt": {
+    "source": "reconstructed from input/aim.txt",
+    "cash_cny": 506.2,
+    "deterministic_yuanbao": 136100,
+    "opaque_actions": [
+      {
+        "date": "2026-03-28",
+        "observed_yuanbao": 4200
+      },
+      {
+        "date": "2026-03-29",
+        "observed_yuanbao": 6500
+      }
+    ]
+  },
+  "candidate": {
+    "cash_cny": 504.0,
+    "deterministic_yuanbao": 137300,
+    "cash_improvement_cny": 2.2,
+    "yuanbao_improvement": 1200
+  },
+  "status": {
+    "known_action_set_optimality": "PASS",
+    "historical_gt_comparison": "PASS",
+    "live_game_global_optimality": "NOT_VERIFIED"
+  }
+}
