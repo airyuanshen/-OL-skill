@@ -1,0 +1,157 @@
+{
+  "case": "328",
+  "scope": "known-action-set",
+  "budget_cny": 506.2,
+  "objective": "maximize deterministic yuanbao within budget",
+  "best": {
+    "cash_cny": 504.0,
+    "deterministic_yuanbao": 137300,
+    "counts": {
+      "6": 1,
+      "12": 0,
+      "30": 1,
+      "68": 0,
+      "128": 1,
+      "328": 1,
+      "week-card-12": 1
+    }
+  },
+  "top_10": [
+    {
+      "cash_cny": 504.0,
+      "deterministic_yuanbao": 137300,
+      "counts": {
+        "6": 1,
+        "12": 0,
+        "30": 1,
+        "68": 0,
+        "128": 1,
+        "328": 1,
+        "week-card-12": 1
+      }
+    },
+    {
+      "cash_cny": 498.0,
+      "deterministic_yuanbao": 136700,
+      "counts": {
+        "6": 0,
+        "12": 0,
+        "30": 1,
+        "68": 0,
+        "128": 1,
+        "328": 1,
+        "week-card-12": 1
+      }
+    },
+    {
+      "cash_cny": 502.0,
+      "deterministic_yuanbao": 136300,
+      "counts": {
+        "6": 0,
+        "12": 1,
+        "30": 5,
+        "68": 0,
+        "128": 0,
+        "328": 1,
+        "week-card-12": 1
+      }
+    },
+    {
+      "cash_cny": 502.0,
+      "deterministic_yuanbao": 136300,
+      "counts": {
+        "6": 2,
+        "12": 0,
+        "30": 5,
+        "68": 0,
+        "128": 0,
+        "328": 1,
+        "week-card-12": 1
+      }
+    },
+    {
+      "cash_cny": 496.0,
+      "deterministic_yuanbao": 135700,
+      "counts": {
+        "6": 1,
+        "12": 0,
+        "30": 5,
+        "68": 0,
+        "128": 0,
+        "328": 1,
+        "week-card-12": 1
+      }
+    },
+    {
+      "cash_cny": 490.0,
+      "deterministic_yuanbao": 135100,
+      "counts": {
+        "6": 0,
+        "12": 0,
+        "30": 5,
+        "68": 0,
+        "128": 0,
+        "328": 1,
+        "week-card-12": 1
+      }
+    },
+    {
+      "cash_cny": 504.0,
+      "deterministic_yuanbao": 134800,
+      "counts": {
+        "6": 1,
+        "12": 1,
+        "30": 1,
+        "68": 0,
+        "128": 1,
+        "328": 1,
+        "week-card-12": 0
+      }
+    },
+    {
+      "cash_cny": 504.0,
+      "deterministic_yuanbao": 134800,
+      "counts": {
+        "6": 3,
+        "12": 0,
+        "30": 1,
+        "68": 0,
+        "128": 1,
+        "328": 1,
+        "week-card-12": 0
+      }
+    },
+    {
+      "cash_cny": 498.0,
+      "deterministic_yuanbao": 134200,
+      "counts": {
+        "6": 0,
+        "12": 1,
+        "30": 1,
+        "68": 0,
+        "128": 1,
+        "328": 1,
+        "week-card-12": 0
+      }
+    },
+    {
+      "cash_cny": 498.0,
+      "deterministic_yuanbao": 134200,
+      "counts": {
+        "6": 2,
+        "12": 0,
+        "30": 1,
+        "68": 0,
+        "128": 1,
+        "328": 1,
+        "week-card-12": 0
+      }
+    }
+  ],
+  "assertions": {
+    "best_cash_cny": 504.0,
+    "best_deterministic_yuanbao": 137300,
+    "known_action_set_optimality": "PASS",
+    "live_game_global_optimality": "NOT_VERIFIED"
+  }
+}
